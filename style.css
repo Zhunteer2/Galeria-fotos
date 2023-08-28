@@ -1,0 +1,40 @@
+body {
+    background-image: url("img/wallpaper.jpg");;
+}
+
+img {
+    width: 80%;
+    height: 60%;
+    background-size: contain;
+    border: solid 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: transform 0.4s;
+    border-radius: 10px;
+}
+img:hover{
+transform: scale(1.1);
+}
+
+h1 {
+    font-family: 'Stencil Std', 'fantasy';
+    color: white;
+    padding: 50px;
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+}
+
+#caixa-flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.column {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
